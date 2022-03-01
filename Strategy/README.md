@@ -3,7 +3,8 @@
 It is a behavioural design pattern that lets us define a family of algorithms, put those in the separate classes and make their object interchangable.
 
 ## Type
-Behavioural
+- Behavioural
+- Based on composition
 
 ## When?
 When we have a class which is does a multiple different things (algorithms or strategies) which are very similar to each other. Probably those things the class does are called based on conditional statements. Also, the algorithms changes a quite lot. A strategy doesn't know anything about the presence of other strategies. They are indepedent of each other.
