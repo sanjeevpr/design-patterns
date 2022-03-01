@@ -1,3 +1,8 @@
+package Strategy.duckapp.Duck;
+
+import Strategy.duckapp.Fly.FlyBehaviour;
+import Strategy.duckapp.Quack.QuackBehaviour;
+
 public abstract class Duck {
     FlyBehaviour flyBehaviour;
     QuackBehaviour quackBehaviour;

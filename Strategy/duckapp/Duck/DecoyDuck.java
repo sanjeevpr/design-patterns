@@ -1,3 +1,5 @@
+package Strategy.duckapp.Duck;
+
 public class DecoyDuck extends Duck {
 
     @Override
