@@ -6,7 +6,7 @@ It is a behavioural design pattern that lets us define a family of algorithms, p
 Behavioural
 
 ## When?
-When we have a class which is does a multiple different things (algorithms or strategies) which are very similar to each other. Probably those things the class does are called based on conditional statements. Also, the algorithms changes a quite lot.
+When we have a class which is does a multiple different things (algorithms or strategies) which are very similar to each other. Probably those things the class does are called based on conditional statements. Also, the algorithms changes a quite lot. A strategy doesn't know anything about the presence of other strategies. They are indepedent of each other.
 
 ## Why?
 Let's suppose you need to make a slight change in one of the algorithm's implementation. This will result in change of the whole class which might be very risky because each change can bring about potential bugs in an stable system.
