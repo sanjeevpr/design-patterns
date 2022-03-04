@@ -15,7 +15,7 @@ Let's suppose you need to make a slight change in one of the algorithm's impleme
 ## How?
 The idea follows the general design principle of separating what changes and what remains unchanged. We can extract the algorithms or strategies out of the class to separate classes. The class (context) can be changed to an interface and the strategy classes can implement the method which actually has the logic. The clients can have an instance field of the context and based on the requirement can pass in the context's subclass object and run any one of the algorithm.
 
-![Strategy Design Pattern Example](https://github.com/sanjeevpr/design-patterns/blob/main/Resouces/strategy.png)
+![Strategy Design Pattern Example](https://github.com/sanjeevpr/design-patterns/blob/main/Resources/strategy.png)
 
 ## Resources
 - https://refactoring.guru/design-patterns/strategy

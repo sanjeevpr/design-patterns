@@ -15,7 +15,7 @@ More conditional statements will get added as the project evolves leading to mai
 ## How?
 This is very similar to the Strategy pattern, but only with a key difference. In Strategy pattern, the strategies (algorithm) doesn't know anything about other strategies. They are independent of each other. But, in the state pattern, the states might know about each other and an state also trigger change of the state of the context to another. The state-specific behaviours are separated to different classes. The original class, the context, stores one reference of one of the state objects that represents its current state, and delegates all the state-related work to that object. To replace the active state by another, we would expose a method to set a new state. The structure is very similar to the Strategy pattern. The state objects can also change the active state of the context internally. This is the main difference between the two patterns.
 
-![State Design Pattern Example](https://github.com/sanjeevpr/design-patterns/blob/main/Resouces/state.png)
+![State Design Pattern Example](https://github.com/sanjeevpr/design-patterns/blob/main/Resources/state.png)
 
 ## Resources
 - https://refactoring.guru/design-patterns/state
